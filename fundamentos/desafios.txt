@@ -1,0 +1,4 @@
+Desafio 1: "A hora do código"
+code.org
+Fazer o desafio "A hora do código", imprimir o certificado, postar no linkedin e marcar o proefessor
+(caso não tenha linkedin, mostrar ao professor)
