@@ -21,3 +21,6 @@ console.log(idade)
 vip = true
 console.log(typeof(vip))
 console.log(vip)
+
+nome = "Thiago G Moura"
+console.log(nome)
