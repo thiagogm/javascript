@@ -121,6 +121,8 @@ String -> Armazena caracteres e números
 Number -> Armazena números inteiros e não inteiros
 Boolean -> true | false
 
+ATENÇÃO: No JS uma variável pode ser criada usando let ou var
+var (obsoleto e inseguro), usar sempre o let
 __________________________________________________________________
 
 Comandos JavaScript (Sintaxe)
