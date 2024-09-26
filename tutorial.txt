@@ -33,7 +33,19 @@ Lógica de programação
 - estruturas de controle
 - POO
 - estruturas de dados
+_____________________________________________________
 
+MANDAMENTOS A PROGRAMAÇÃO
+
+1) UX (User eXperience) - desenvolver sempre pensando na experiênia do usuário.
+2) Usar o mínimo possível de código (variáveis, operadores, comparadores, estrutura de controle etc)
+para resolver o problema (lembrar do marcapasso)
+3) Entender o problema. Nçao adianta sentar na frente do computador se você não sabe como resolver o problema.
+Algoritimo (receita do bolo)
+Conceito:
+          variáveis
+entrada - processamento - saída
+_______________________________________________________
 GIT e GITHUB
 
 Comandos básicos do git:
