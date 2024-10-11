@@ -5,7 +5,7 @@
 
 //importar a biblioteca read-linesync
 const input = require('readline-sync')
-
+const colors = require('colors')
 // váriáveis
 let num1, num2, num3, media
 
@@ -24,3 +24,11 @@ media = (num1 + num2 + num3) / 3
 
 //saída
 console.log(`Média: ${media.toFixed(1)}`)
+
+if (media >= 5){
+    console.log("Aluno Aprovado".blue)
+} else {
+    console.log("Aluno Reprovado".red)
+}
+
+
