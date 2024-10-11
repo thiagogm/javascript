@@ -147,4 +147,25 @@ const -> criar(declarar) uma constante
 let -> criar(declarar) uma variável
 typeof() -> verificar o tipo de variável
 
+------------------------------------------------------
+Estrutura de controle
 
+-condicionais
+-laços de repetições
+
+Estrutura de controle condicionais
+
+if (condição) {
+  //condição verdadeira
+}
+
+if(condição) {
+  //condição verdadeira
+} else {
+  //condição falsa
+}
+
+obserações:
+
+1 - Uma condição nunca pode ser verdadeira e falsa simultaneamente
+2 - No uso do if-else sempre sempre uma das condições será processada.
