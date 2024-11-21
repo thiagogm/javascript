@@ -4,10 +4,11 @@
  */
 
 const input = require('readline-sync')
+console.log(typeof(input))
 
 let consumo, peso
 
-console.clear()
+//console.clear()
 
 peso = Number(input.question("Digite o seu peso: "))
 
