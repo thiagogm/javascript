@@ -10,9 +10,9 @@ class Carro {
 
     criarCarro() {
         console.log("------------------------------------------");
-        console.log("  🚗");
-        console.log(`Carro de cor: ${this.cor}`);
+        console.log("  🚗 Carro criado:");
         console.log(`Ano: ${this.ano}`);
+        console.log(`Cor: ${this.cor}`);
     }
 
     ligar() {
@@ -45,16 +45,14 @@ class Carro {
 // Classe Avião (herança de Carro)
 class Aviao extends Carro {
     constructor(ano, cor, envergadura) {
-        super(ano, cor); // Chama o construtor da classe pai
-        this.envergadura = envergadura; // Novo atributo
+        super(ano, cor); // Inicializa os atributos herdados
+        this.envergadura = envergadura; // Novo atributo exclusivo da classe Aviao
     }
 
     criarAviao() {
-        console.log("------------------------------------------");
-        console.log("✈️");
-        console.log(`Avião de cor: ${this.cor}`);
-        console.log(`Ano: ${this.ano}`);
-        console.log(`Envergadura: ${this.envergadura} metros`);
+        console.log("===== Detalhes do Avião =====");
+        super.criarCarro(); // Chama o método da classe pai
+        console.log(`Envergadura (exclusiva): ${this.envergadura} metros`);
     }
 
     aterrizar() {
@@ -71,8 +69,19 @@ class Aviao extends Carro {
     }
 }
 
-// Criando um objeto da classe Avião
-console.log("===== Avião =====");
+// Criando objetos e exibindo os dois no mesmo fluxo
+console.log("===== Criando Veículos =====");
+
+// Criando um carro
+const carro1 = new Carro(2021, "vermelho");
+carro1.criarCarro();
+carro1.ligar();
+carro1.acelerar();
+carro1.desligar();
+
+console.log("");
+
+// Criando um avião
 const aviao1 = new Aviao(2025, "branco", 36); // Ano, cor, envergadura
 aviao1.criarAviao();
 aviao1.ligar();
